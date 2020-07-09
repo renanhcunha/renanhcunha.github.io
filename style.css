@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(98, 124, 133, 1);
+    color:rgb(191, 215, 255, 1);
+}
+.container {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header {
+    text-align: center;
+    font-size: 1.5em;
+    background-color:rgba(9, 30, 71, 1);
+    color: white;
+    padding: 10px;                
+}
+.footer img{
+    display: block;
+    width: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about {
+    display: inline-block;
+    margin: 30px 20px;
+}
+h2 {
+    font-size: 2em;
+}
+p, li {
+    font-size: 18px;
+}
+#foto {
+    margin: 10px;
+    float: left;
+    padding: 12px;
+    background-color:#483233;
+}
+.skills {
+    margin-top: 50px;
+}
+.skills-tech {
+    display: inline-block;
+    margin: 30px 70px 50px 0;
+}
