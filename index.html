@@ -6,28 +6,30 @@
         <style>
             body {
                 font-family: Arial, Helvetica, sans-serif;
-                background-color: #CFCFEA;
+                background-color:rgba(98, 124, 133, 1);
+                color:rgb(191, 215, 255, 1);
             }
-            h1 {
+            #home {
                 text-align: center;
-                font-size: 2.5em;
-                background-color: #091E47;
+                font-size: 1.5em;
+                background-color:rgba(9, 30, 71, 1);
                 color: white;
-                padding: 50px;
-                margin: 0px;
-
+                padding: 10px;                
             }
-            .about h2 {
-                float: auto;
+            #foto {
+                border-radius: 50%;
             }
         </style>
     </head>
     <body>
-        <h1>Renan Homem Cunha - Estudante de Desenvolvimento Web</h1>
+        <div id="home">
+            <h1>Renan Homem Cunha - Estudante de Desenvolvimento Web</h1>
+            <img id="foto" src="imagens/renan.jpeg" alt="Renan H. Cunha" width="200px">
+        </div>
         <div class="inicio">
-            <h2>Índice:</h2>
+            <h2>Navegue pela página:</h2>
             <ol>
-                <li><a href="#foto">Foto</a></li>
+                <li><a href="#aboutme">Sobre mim</a></li>
                 <li><a href="#pessoais">Habilidades pessoais</a></li>
                 <li><a href="#tecnicas">Habilidades técnicas</a></li>
                 <li><a href="#recomendadas">Páginas recomendadas</a></li>
@@ -37,9 +39,8 @@
         </div>
 
         <div class="about">
-            <img id="foto" src="imagens/renan.jpeg" alt="Renan H. Cunha" width="250px">
 
-            <h2>Sobre mim:</h2>
+            <h2 id="aboutme">Sobre mim:</h2>
             <p>Meu nome é <strong>Renan </strong>, sou Brasileiro, natural de Florianópolis/SC. </p>
             <p>Atualmente estudo desenvolvimento de software na <strong>Trybe</strong>, na qual pretendo <br>
             me tornar um desenvolvedor <strong>full-stack</strong>.</p>
@@ -71,6 +72,7 @@
                 <li>SQL</li>
                 <p>Entre outras linguagens e frameworks.</p>
             </ul>
+            <img src="/imagens/gato.gif" alt="gato digitando" height="200px">
         </div>
         <hr>
         <div>
@@ -78,15 +80,18 @@
             <ul>
                 <li><a target="_blank" href="https://www.youtube.com/user/RBTechinfo/playlists">RBtech</a></li>
                 <li><a target="_blank" href="https://www.youtube.com/user/Diolinux">Diolinux</a></li>
+                <li><a target="_blank" href="https://www.clubedohardware.com.br/artigos/blog/">Clube do Hardware</a></li>
+
+                
             </ul>
 
-            <a href="#foto"><h4>Ver foto</h4></a>
 
             <h2 id="mpaginas">Minhas páginas:</h2>
-            <ul>
-                <li><a target="_blank" href="https://www.linkedin.com/in/renan-hcunha/"><h4>Linkedin</h4></a></li>
-                <li><a target="_blank" href="https://github.com/renanhcunha/"><h4>Github</h4></a></li>
-            </ul>
+            <a target="_blank" href="https://www.linkedin.com/in/renan-hcunha/"><img src="/imagens/linkedin.png" alt="linkedin" width="50px"></a>
+            <a target="_blank" href="https://github.com/renanhcunha/"><img src="/imagens/github-logo.png" alt="github" width="50px"></a>
+            <a href="#home"><h4>Topo da página</h4></a> <br>
+            <img src="/imagens/home.jpg" alt="no place like home" height="200px">
+
         </div>
     </body>
 </html>
